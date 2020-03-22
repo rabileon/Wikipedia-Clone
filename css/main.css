@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #36c;
+}
+
+/*SPRITE SVG*/
+.sprite {
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-9ba8de1b.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+
+.svg-wiki {
+    background-position: 0 -254px;
+    width: 176px;
+    height: 32px;
+}
+
+/*---------HEADER------------*/
+header {
+    margin-top: 20px;
+    width: 100%;
+    height: 66px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.logo_wiki{
+    color: transparent;
+}
+
+header .logo{
+    position: absolute;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    top: 150px;
+}
+
+header p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/*-----MAIN----*/ 
+.container-central{
+    position: relative;
+    height: 325px;
+    width: 546px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.central-lang{
+    width: 156px;
+    position: absolute;    
+}
+.box-1 {
+    top: 0;
+    right: 60%;
+}
+
+.box-2 {
+    top: 0;
+    left: 60%;
+}
+
+.box-3{
+    top: 20%;
+    right: 70%;
+}
+
+.box-4{
+    top: 20%;
+    left: 70%;
+}
+
+.box-5{
+    top: 40%;
+    right: 72%;
+}
+
+.box-6{
+    top: 40%;
+    left: 72%;
+}
+
+.box-7{
+    top: 60%;
+    right: 70%;
+}
+
+.box-8{
+    top:60%;
+    left: 70%;
+}
+.box-9{
+    top:80%;
+    left: 60%;
+}
+
+.box-10{
+    top: 80%;
+    right: 60%;
+}
+
+.central-lang small {
+    display: block;
+}
+
+/*-------- SEARCH -------*/
+.search-icon { 
+    background-position: 0 -669px;
+    width: 30px;
+    height: 22px;    
+    margin-left: 6px;
+}
+.search{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.box-search{
+    display: flex;
+    width: 376px;
+    border-top: 2px solid #a2a9b1; 
+    border-bottom: 2px solid #a2a9b1; 
+    border-left: 2px solid #a2a9b1; 
+   
+    border-radius: 3px 0px 0px 3px;
+    align-items: center;
+}
+
+.search form{
+    display: flex;
+}
+
+.box-search:hover{
+    border-top: 2px solid #3366cc; 
+    border-bottom: 2px solid #3366cc; 
+    border-left: 2px solid #3366cc; 
+}
+.search-input{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-search input{
+    height: 33px;
+    width: 325px;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-left: 5px;
+    border: none;  
+}
+
+.search-language select{
+    width: 40px;
+    border: none;
+    outline: none;
+    color: #A2A9B1;
+}
+
+.btn-search {
+    background-color: #36c;
+    height: 40px;
+    width: 50px;
+    color #fff;
+    border: 0;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.search button{
+    color: transparent;
+    cursor: pointer;
+
+}
+.search button:hover{
+    background-color:#447ff5;  
+
+}
+
+/*------- TRADUCTOR ----------*/
+.translate-icon {
+    background-position: 0 -691px;
+    width: 25px;
+    height: 18px;
+}
+
+.icon-arrow-down-blue {
+    background-position: 0 -527px;
+    width: 12px;
+    height: 8px;
+}
+.translate-icon {
+    background-position: 0 -691px;
+    width: 25px;
+    height: 18px;
+}
+.translate{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+.translate button{
+    position: absolute;
+    align-items: center;
+    border: 1px solid #A2A9B1;
+    border-radius: 2px;
+    background-color: #F8F9FA;
+    font-size: 13px;
+    padding: 7px 12px 7px 12px;
+    color: #3366CC;
+    cursor: pointer;
+    outline: #fff solid 16px;
+}
+
+.line-decoration{
+    width: 440px;
+}
+/*------section wiki------------*/
+.line-section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.svg-Wikimedia-icon {
+    background-position: 0 -212px;
+    width: 42px;
+    height: 42px;
+}
+
+.svg-wikiapp-icon{
+    background-position: 0 -709px;
+    width: 42px;
+    height: 42px;
+}
+
+.wiki-sidebar{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.sidebar-left{
+    width: 40%;
+    
+}
+.sidebar-right{
+    width: 70%;
+    
+}
+
+
+.sidebar-content{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    max-width: 350px;
+    margin: 15px auto;
+    
+}
+
+.sidebar-text{
+    width: 90%;
+    line-height: 18px;
+    padding-left: 15px;
+    
+}
+
+.app {
+    background-color: #F8F9FA;
+    padding: 12px;
+}
+.app ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.svg-google-playstore{
+    background-position: 0 -535px;
+    width: 124px;
+    height: 38px;
+
+}
+
+.svg-ios-playstore{
+    background-position: 0 -573px;
+    width: 110px;
+    height: 38px;
+
+}
+
